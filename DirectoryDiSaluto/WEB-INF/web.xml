@@ -1,0 +1,28 @@
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.2//EN"
+"http://java.sun.com/j2ee/dtds/web-app_2_2.dtd">
+<web-app>
+	<display-name>
+		NomeDisplay
+	</display-name>
+	
+	<description>
+		Si tratta di una servlet
+	</description>
+	
+	<servlet>
+		<servlet-name>ServletStart</servlet-name>
+		
+		<description>
+			La prima servlet
+		</description>
+		
+		<servlet-class>
+			ServletDiSaluto
+		</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ServletStart</servlet-name>
+		<url-pattern>/ServletStart</url-pattern>
+	</servlet-mapping>
+</web-app>
